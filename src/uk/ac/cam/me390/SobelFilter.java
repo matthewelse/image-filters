@@ -1,14 +1,14 @@
-package uk.ac.cam.cl.gfx.tick4.me390;
+package uk.ac.cam.me390;
 
 import java.awt.image.BufferedImage;
 
-public class PrewittFilter implements Filter {
-    private VerticalPrewittFilter v;
-    private HorizontalPrewittFilter h;
+public class SobelFilter implements Filter {
+    private VerticalSobelFilter v;
+    private HorizontalSobelFilter h;
 
-    public PrewittFilter() {
-        v = new VerticalPrewittFilter();
-        h = new HorizontalPrewittFilter();
+    public SobelFilter() {
+        v = new VerticalSobelFilter();
+        h = new HorizontalSobelFilter();
     }
 
     @Override

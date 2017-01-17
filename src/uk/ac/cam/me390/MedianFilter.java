@@ -1,4 +1,4 @@
-package uk.ac.cam.cl.gfx.tick4.me390;
+package uk.ac.cam.me390;
 
 import java.awt.image.BufferedImage;
 import java.util.Arrays;
